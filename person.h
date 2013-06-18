@@ -2,13 +2,13 @@
 #define ADDRESS_H
 #define COLUMN_LENGTH 512
 
-struct Address {
+struct Person {
   int id;
   int set;
   char name[COLUMN_LENGTH];
   char email[COLUMN_LENGTH];
 };
 
-void Address_print(struct Address *addr);
+void Person_print(struct Person *addr);
 
 #endif

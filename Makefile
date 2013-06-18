@@ -1,2 +1,2 @@
-app: main.c database.c util.c connection.c address.c
-	cc main.c database.c util.c connection.c address.c -o razdb
+app: main.c database.c util.c connection.c person.c
+	cc main.c database.c util.c connection.c person.c -o razdb

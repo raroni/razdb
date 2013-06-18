@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "database.h"
-#include "address.h"
+#include "person.h"
 #include "connection.h"
 #include "util.h"
 
@@ -27,12 +27,12 @@ int main(int argc, char *argv[]) {
       Database_set(connection->database, id, argv[4], argv[5]);
       Connection_write(connection);
 
-      printf("Record %d created.\n", id);
+      printf("Person %d created.\n", id);
       break;
     case 'g':
       if(!id) die("Need an ID to get.");
-      struct Address *address = Database_get(connection->database, id);
-      Address_print(address);
+      struct Person *person = Database_get(connection->database, id);
+      Person_print(person);
       break;
     default:
       die("Invalid action.");
