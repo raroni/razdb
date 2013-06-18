@@ -1,4 +1,4 @@
-razdb
+RazDB
 =====
 
 The most advanced and most elegant DB system ever written in the history of man kind.
@@ -12,10 +12,10 @@ How to use
 ----------
 
 Creating a database:
-`./razdb my_db.test c`
+`./razdb my.db c`
 
 Registering a person:
-`./razdb my_db.test s 1 Rasmus email_address@example.com`
+`./razdb my.db s 1 Rasmus email_address@example.com`
 
 Finding a person:
-`./razdb my_db.test g 1`
+`./razdb my.db g 1`
