@@ -19,3 +19,8 @@ Registering a person:
 
 Finding a person:
 `./razdb my.db g 1`
+
+Is it web scale?
+----------------
+
+Does the pope wear a funny hat?
