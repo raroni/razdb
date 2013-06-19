@@ -1,5 +1,5 @@
-#ifndef ADDRESS_H
-#define ADDRESS_H
+#ifndef PERSON_H
+#define PERSON_H
 #define COLUMN_LENGTH 512
 
 struct Person {
