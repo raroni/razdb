@@ -1,7 +1,7 @@
 RazDB
 =====
 
-The most advanced and most elegant DB system ever written in the history of man kind.
+The most advanced and most elegant DB system ever written in the history of man kind. Heavily inspired by [Learn C The Hard Way](http://c.learncodethehardway.org/book/ex17.html).
 
 How to compile
 --------------
