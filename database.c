@@ -1,7 +1,7 @@
+#include <string.h>
 #include "database.h"
 #include "person.h"
 #include "util.h"
-#include "string.h"
 
 void Database_initialize(struct Database *database) {
   int i = 0;
